@@ -1,0 +1,334 @@
+/* Tabla con bordes visibles */
+table {
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px auto;
+    border-collapse: collapse; /* Mantiene los bordes juntos y limpios */
+    border: 2px solid #333333;  /* Borde exterior grueso */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+
+/* Bordes en las cabeceras */
+th {
+    background-color: #0a7563;
+    color: #ffffff;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid #333333; /* Borde de cada cabecera */
+}
+
+/* Bordes en las celdas del horario */
+td {
+    border: 1px solid #555555; /* Borde oscuro y visible para cada celda */
+    padding: 12px 8px;
+    text-align: center;
+    font-size: 13px;
+    vertical-align: middle;
+}
+/* Color para cada módulo/asignatura */
+
+/* Hora */
+td.hora {
+    background-color: #eceff1;
+    font-weight: bold;
+    color: #151921;
+}
+
+/* Recreo */
+td.recreo {
+    background-color: #ffe0b2;
+    color: #ef0909;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Fundamentos de hardware (.fh) */
+td.fh {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* Sostenibilidad (.sost) */
+td.sost {
+    background-color: #e8f5e9;
+    color: #339438;
+}
+
+/* Lenguajes de marcas (.lmsgi) */
+td.lmsgi {
+    background-color: #fff3e0;
+    color: #ef6c00;
+}
+
+/* Inglés profesional (.ing) */
+td.ing {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+}
+
+/* Planificación y administración de redes (.par) */
+td.par {
+    background-color: #e1f5fe;
+    color: #0277bd;
+}
+
+/* Itinerario personal para la empleabilidad (.ipe) */
+td.ipe {
+    background-color: #f0f4c3;
+    color: #dcc707;
+}
+
+/* Gestión de bases de datos (.gbd) */
+td.gbd {
+    background-color: #e0f2f1;
+    color: #00695c;
+}
+
+/* Implantación de sistemas operativos (.iso) */
+td.iso {
+    background-color: #e8eaf6;
+    color: #283593;
+}
+
+/* Proyecto intermodular (.proyecto) */
+td.proyecto {
+    background-color: #fce4ec;
+    color: #ad1457;
+}
+
+/* Digitalización (.dig) */
+td.dig {
+    background-color: #e0f7fa;
+    color: hsl(185, 100%, 28%);
+}
+
+/* Estilo para el texto secundario de las aulas */
+small.aula {
+    display: block;
+    margin-top: 4px;
+    font-size: 11px;
+    opacity: 0.8;
+    font-style: italic;
+}      
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+/* Estilo y color para el recuadro del formulario */
+.form-container {
+    background-color: #ff0000; /* Cambia este código de color por el que quieras */
+    border: 2px solid #000000;  /* Borde alrededor del formulario */
+    border-radius: 8px;        /* Bordes redondeados */
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+/* Color para las casillas de texto */
+textarea {
+    background-color: #ffffff; /* Fondo blanco para las casillas */
+    border: 1px solid #57dc1a;  /* Borde de color rojo */
+    color: #0f0b0b;             /* Color del texto que escribe el usuario */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #1043d0;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+/* Menú de navegación */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+/* Botón o enlace activo/seleccionado */
+nav a.active {
+    background-color: #2b6cb0;
+}
+
+/* Sección principal de texto */
+.intro-text {
+    background-color: #ffffff;
+    padding: 25px 30px;
+}
+
+.intro-text p {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+
+/* Sección del banner rojo central */
+.banner {
+    background-color: #f6f1f1;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+/* Pie de página */
+footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: #d63384;
+    text-decoration: underline;
+}
+h2 {
+    background-color: #e1f5fe;
+    color: #f60303;
+}
+    .resaltado {
+    background-color: yellow; /* También puedes usar el código hexadecimal #FFFF00 */
+}
+/* --- ESTILOS DE LA NUEVA SECCIÓN DE LA FLOR --- */
+
+.seccion-flor-container {
+    position: relative;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    min-height: 450px; 
+}
+
+.titulo-rojo {
+    text-align: center;
+    color: #e74c3c; /* Color rojo */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 2; /* Mantiene el texto encima de la imagen */
+}
+
+.badge-amarillo {
+    background-color: yellow;
+    color: black;
+    padding: 2px 5px;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.contenido-flotante {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.boton-amarillo {
+    background-color: #f1c40f;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+}
+
+.texto-pre {
+    background-color: #fdfdfd;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 0.9rem;
+    border: 1px dotted #ccc;
+}
+
+.enlace-google {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.imagen-fondo-flor {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%); /* Centra la imagen */
+    max-width: 600px;
+    width: 100%;
+    z-index: 1; /* Manda la foto al fondo, detrás de los botones */
+}
+
+/* --- ESTILOS DEL CAPÍTULO 4 (CAJA AZUL) --- */
+.caja-azul-fuerte {
+    background-color: #6495ED; /* Azul tipo Cornflower */
+    border: 2px solid black;
+    padding: 20px;
+    margin: 40px 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.caja-azul-fuerte .etiqueta-blanca {
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.caja-azul-fuerte h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: black;
+}
